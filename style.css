@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+/* Header */
+header {
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 10px;
+    font-size: 1rem;
+    min-width: min-content;
+}
+header img{
+    /* cursor: pointer; */
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    list-style-type: none;
+    gap: 1em;
+}
+
+.menu li {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 2;
+    /* background-color: white; */
+}
+.menu li a{
+    text-decoration: none;
+    
+}
+
+header .login {
+    border: none;
+    padding: 10px;
+    width: min-content;
+    border-radius: 4px;
+    opacity: 0.7;
+    background-color: rgb(186, 39, 231);
+    transition: opacity 1s;
+}
+header .login:hover{
+    cursor: pointer;
+    opacity: 3;
+}
+
+/* Main */
+main{
+    margin: 56px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > h1 {
+    font-size: 2.25rem; 
+    margin-bottom: 33px;
+    text-align: center;
+}
+main > .converter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 10px 3px blueviolet;
+    padding: 10px;
+}
+
+.section>span,
+.buttons {
+    margin-bottom: 15px;
+}
+
+.section>.buttons {
+    width: fit-content;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    border-radius: 1px;
+
+}
+.btn-color{
+    background-color: blueviolet;
+}
+
+.section>.buttons>button {
+    /* background: none; */
+    width: 63.81px;
+    height: 28px;
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.section>.area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    max-width: 259px;
+    padding: 15px;
+    height: 102px;
+}
+
+.area>input {
+    height: calc(100% * 1/2);
+    border: 1px solid #E5E5E5;
+    font-weight: 700;
+    font-size: 2vw;
+    width: 100%;
+    padding: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    appearance: none;
+}
