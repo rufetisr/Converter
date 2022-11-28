@@ -18,9 +18,7 @@ header {
     font-size: 1rem;
     min-width: min-content;
 }
-header img{
-    /* cursor: pointer; */
-}
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -35,11 +33,10 @@ header img{
     flex-direction: row;
     justify-content: space-around;
     flex-grow: 2;
-    /* background-color: white; */
 }
+
 .menu li a{
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 header .login {
@@ -99,8 +96,7 @@ main > .converter{
     background-color: blueviolet;
 }
 
-.section>.buttons>button {
-    /* background: none; */
+.section > .buttons > button {
     width: 63.81px;
     height: 28px;
     border: none;

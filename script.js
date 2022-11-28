@@ -118,5 +118,5 @@ function Convert(data, rate) {
 
 let logBtn = document.querySelector(".login");
 logBtn.addEventListener("click",()=>{
-    
+
 })
