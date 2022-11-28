@@ -6,7 +6,9 @@
     box-sizing: border-box;
     padding: 0px;
 }
-
+.container{
+    min-width: 100%;
+}
 /* Header */
 header {
     display: flex;
@@ -16,7 +18,7 @@ header {
     background-color: gainsboro;
     padding: 10px;
     font-size: 1rem;
-    min-width: min-content;
+    min-width: 420px;
 }
 
 .menu {
@@ -56,6 +58,7 @@ header .login:hover{
 
 /* Main */
 main{
+    min-width: 415px;
     margin: 56px 0px;
     display: flex;
     flex-direction: column;
@@ -72,6 +75,7 @@ main > .converter{
     justify-content: space-around;
 }
 .section {
+    min-width: min-content;
     display: flex;
     flex-direction: column;
     margin-right: 25px;
@@ -79,7 +83,12 @@ main > .converter{
     box-shadow: 1px 5px 10px 3px blueviolet;
     padding: 10px;
 }
+@media only screen and (max-width: 809px) {
+    .section{
+        margin-right: 0px;
+    }
 
+}
 .section>span,
 .buttons {
     margin-bottom: 15px;
