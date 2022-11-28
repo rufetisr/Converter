@@ -54,6 +54,7 @@ header .login {
 header .login:hover{
     cursor: pointer;
     opacity: 3;
+    color: white;
 }
 
 /* Main */
@@ -123,9 +124,10 @@ main > .converter{
     height: calc(100% * 1/2);
     border: 1px solid #E5E5E5;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: large;
     width: 100%;
     padding: 10px;
+    outline: none;
 }
 
 input::-webkit-outer-spin-button,
