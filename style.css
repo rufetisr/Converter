@@ -54,6 +54,7 @@ header .login {
 header .login:hover{
     cursor: pointer;
     opacity: 3;
+    color: white;
 }
 
 /* Main */
